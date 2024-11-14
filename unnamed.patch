@@ -1,0 +1,828 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.gitignore	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/codeStyles/Project.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codeStyles/Project.xml b/.idea/codeStyles/Project.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/codeStyles/Project.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,7 @@
++<component name="ProjectCodeStyleConfiguration">
++  <code_scheme name="Project" version="173">
++    <ScalaCodeStyleSettings>
++      <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
++    </ScalaCodeStyleSettings>
++  </code_scheme>
++</component>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codeStyles/codeStyleConfig.xml b/.idea/codeStyles/codeStyleConfig.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/codeStyles/codeStyleConfig.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/compiler.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <option name="DEFAULT_COMPILER" value="Eclipse" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/misc.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/modules.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/JavaCode.iml" filepath="$PROJECT_DIR$/JavaCode.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/uiDesigner.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/vcs.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/.idea/workspace.xml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,99 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="97bea6d9-7e89-4af0-99ef-d0a7a3165362" name="Changes" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="PATH_TO_GIT" value="D:\Git\Git\cmd\git.exe" />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_HIGHLIGHTING" />
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
++  <component name="ProjectCodeStyleSettingsMigration">
++    <option name="version" value="2" />
++  </component>
++  <component name="ProjectId" id="2gh5p7GIBGMLJPAjM6O1lSnlQsN" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "D:/code/JavaCode",
++    "settings.editor.selected.configurable": "vcs.Git"
++  }
++}]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\code\JavaCode\src\homework\k2" />
++      <recent name="D:\code\JavaCode\src" />
++      <recent name="D:\code\JavaCode\src\homework\1" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="D:\code\JavaCode\src" />
++    </key>
++  </component>
++  <component name="RunManager" selected="应用程序.homework.k2.Main">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="JavaCode" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="homework.k2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="homework.k2.Main" />
++      <module name="JavaCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="homework.k2.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="test" />
++      <module name="JavaCode" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="97bea6d9-7e89-4af0-99ef-d0a7a3165362" name="Changes" comment="" />
++      <created>1716137150795</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1716137150795</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
++  </component>
++</project>
+\ No newline at end of file
+Index: JavaCode.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/JavaCode.iml b/JavaCode.iml
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/JavaCode.iml	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/homework/k1/Add.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k1/Add.java b/src/homework/k1/Add.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k1/Add.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,15 @@
++package homework.k1;
++
++public class Add {
++    private int a,b;
++
++    public Add(int a,int b)
++    {
++        this.a=a;
++        this.b=b;
++    }
++    @Override
++    public String toString() {
++        return a+" + " + b+" = "+ (a+b);
++    }
++}
+Index: src/homework/k1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k1/Main.java b/src/homework/k1/Main.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k1/Main.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,44 @@
++package homework.k1;
++
++public class Main {
++
++    static void addPrint(int t)
++    {
++        int cnt=0;
++        for(int i=1;i<=100;i++)
++        {
++            for(int j=i;j<=100;j++)
++            {
++                if(j+i<=100){
++                    System.out.print(new Add(i,j)+"\t\t");
++                    cnt++;
++                    if(cnt==t)return;
++                    if(cnt%8==0) System.out.println();
++                }
++            }
++        }
++    }
++
++    static void subPrint(int t)
++    {
++        int cnt=0;
++        for(int i=1;i<=100;i++)
++        {
++            for(int j=1;j<=i;j++)
++            {
++                if(i-j>=0){
++                    System.out.print(new Sub(i,j)+"\t\t");
++                    cnt++;
++                    if(cnt==t)return;
++                    if(cnt%8==0) System.out.println();
++                }
++            }
++        }
++    }
++    public static void main(String[] args) {
++
++        addPrint(25);
++        System.out.println();
++        subPrint(25);
++    }
++}
+Index: src/homework/k1/Sub.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k1/Sub.java b/src/homework/k1/Sub.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k1/Sub.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,15 @@
++package homework.k1;
++
++public class Sub {
++    private int a,b;
++
++    public Sub(int a,int b)
++    {
++        this.a=a;
++        this.b=b;
++    }
++    @Override
++    public String toString() {
++        return a+" - " + b+" = "+ (a-b);
++    }
++}
+Index: src/homework/k2/Add.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k2/Add.java b/src/homework/k2/Add.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k2/Add.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,30 @@
++package homework.k2;
++
++import java.util.Objects;
++
++public class Add extends  Ss{
++
++    public Add(int a,int b)
++    {
++        this.a=a;
++        this.b=b;
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        Add add = (Add) o;
++        return a == add.a && b == add.b;
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(a, b);
++    }
++
++    @Override
++    public String toString() {
++        return String.format("%3d + %3d  = %3d",a,b,(a+b));
++    }
++}
+Index: src/homework/k2/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k2/Main.java b/src/homework/k2/Main.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k2/Main.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,134 @@
++package homework.k2;
++
++import java.util.HashSet;
++import java.lang.*;
++import java.util.Scanner;
++
++public class Main {
++
++    static HashSet<Ss> set=new HashSet<>();
++
++    public static  Ss getAdd(int a,int b)
++    {
++        return new Add(a,b);
++    }
++
++    public static  Ss getSub(int a,int b)
++    {
++        return new Sub(a,b);
++    }
++
++
++    public static Res check(String a,String f,String b) {
++       Res res=new Res(0,null);
++       if(f.length()!=1 || (f.charAt(0) != '-' && f.charAt(0) != '+'))
++       {
++           res.id=1;
++//           System.out.println("##########");
++           return res;
++       }
++       try {
++           int x = Integer.parseInt(a);
++           int y = Integer.parseInt(b);
++           char c=f.charAt(0);
++           if(c=='-')
++           {
++               if(x-y<0){
++                   res.id=2;
++                   return res;
++               }
++               res.res=new Sub(x,y);
++           }
++           else
++           {
++               if(x+y>100){
++                   res.id=2;
++                   return res;
++               }
++               res.res=new Add(x,y);
++           }
++       }catch (Exception e)
++       {
++           res.id=1;
++           return res;
++       }
++
++        return res;
++    }
++    public static  void  solve(int x)
++    {
++        char[] sg ={'-','+'};
++
++        while(true)
++        {
++            int a= (int) (Math.random()*100);
++            int b= (int) (Math.random()*100);
++
++            char sign=sg[x%2];
++            Res res = check(String.valueOf(a), String.valueOf(sign), String.valueOf(b));
++            if(res.id==0 && !set.contains(res.res))
++            {
++                set.add(res.res);
++                return;
++            }
++        }
++
++
++    }
++
++
++    public static void test()
++    {
++        String a,f,b;
++        Scanner sc = new Scanner(System.in);
++        while(true)
++        {
++            a=sc.next();
++            f=sc.next();
++            b=sc.next();
++            Res res=check(a,f,b);
++            switch (res.id)
++            {
++                case 0:
++                    System.out.println(res.res);
++                    break;
++                case 1:
++                    System.out.println("输入不合法！");
++                    break;
++                case 2:
++                    System.out.println("算式合法 但计算结果不符合要求！");
++                    break;
++                default:
++            }
++        }
++
++    }
++
++    public static void main(String[] args) {
++
++        int arr[] = {5,6,7,23,24,25,59,60,61,119,120};
++        for (int cnt : arr) {
++            set = new HashSet<>();
++            for(int i=1;i<=cnt;i++)
++            {
++                int x= (int) (Math.random()*100);
++                solve(x);
++            }
++
++            System.out.println("\n--------------------------------------");
++            int n=0;
++
++            for(Ss d:set)
++            {
++                System.out.print(d +"\t");
++                n++;
++                if(n%6==0) System.out.println();
++            }
++        }
++
++
++
++
++        test();
++    }
++}
+Index: src/homework/k2/Res.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k2/Res.java b/src/homework/k2/Res.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k2/Res.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,11 @@
++package homework.k2;
++
++public class Res {
++    int id;
++    Ss res;
++
++    public Res(int id, Ss res) {
++        this.id = id;
++        this.res = res;
++    }
++}
+Index: src/homework/k2/Ss.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k2/Ss.java b/src/homework/k2/Ss.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k2/Ss.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,6 @@
++package homework.k2;
++
++abstract class Ss {
++    int a;
++    int b;
++}
+Index: src/homework/k2/Sub.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/homework/k2/Sub.java b/src/homework/k2/Sub.java
+new file mode 100644
+--- /dev/null	(revision 3644139794922eea3eb0329995a843b59be72e9f)
++++ b/src/homework/k2/Sub.java	(revision 3644139794922eea3eb0329995a843b59be72e9f)
+@@ -0,0 +1,30 @@
++package homework.k2;
++
++import java.util.Objects;
++
++public class Sub extends Ss{
++
++    public Sub(int a,int b)
++    {
++        this.a=a;
++        this.b=b;
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        Sub sub = (Sub) o;
++        return a == sub.a && b == sub.b;
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(a, b);
++    }
++
++    @Override
++    public String toString() {
++        return String.format("%3d - %3d  = %3d",a,b,(a-b));
++    }
++}
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+diff --git a/src/homework/k2.zip b/src/homework/k2.zip
+new file mode 100644
+index 0000000000000000000000000000000000000000..150a0d2dbacc74938c9b5ef70f553c8b0497b9a4
+GIT binary patch
+literal 2679
+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
+CAQJKb
+
